@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */; };
-		75DAF54B25CF325600756E53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF54A25CF325600756E53 /* ContentView.swift */; };
 		75DAF54D25CF325700756E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54C25CF325700756E53 /* Assets.xcassets */; };
 		75DAF55025CF325700756E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54F25CF325700756E53 /* Preview Assets.xcassets */; };
+		75DAF56025CF341200756E53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF55F25CF341200756E53 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75DAF54525CF325600756E53 /* InstagramSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUITutorialApp.swift; sourceTree = "<group>"; };
-		75DAF54A25CF325600756E53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75DAF54C25CF325700756E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DAF54F25CF325700756E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75DAF55125CF325700756E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DAF55F25CF341200756E53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,12 @@
 		75DAF54725CF325600756E53 /* InstagramSwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				75DAF55C25CF332300756E53 /* Model */,
+				75DAF55B25CF332000756E53 /* View */,
+				75DAF55A25CF331D00756E53 /* ViewModel */,
+				75DAF55925CF331900756E53 /* API */,
+				75DAF55825CF32D300756E53 /* Utils */,
 				75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */,
-				75DAF54A25CF325600756E53 /* ContentView.swift */,
 				75DAF54C25CF325700756E53 /* Assets.xcassets */,
 				75DAF55125CF325700756E53 /* Info.plist */,
 				75DAF54E25CF325700756E53 /* Preview Content */,
@@ -67,6 +71,146 @@
 				75DAF54F25CF325700756E53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75DAF55825CF32D300756E53 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75DAF55925CF331900756E53 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		75DAF55A25CF331D00756E53 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75DAF56D25CF356C00756E53 /* Profile */,
+				75DAF56C25CF356900756E53 /* Authentication */,
+				75DAF56B25CF356500756E53 /* Notifications */,
+				75DAF56A25CF356100756E53 /* Feed */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75DAF55B25CF332000756E53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75DAF56925CF347B00756E53 /* Items */,
+				75DAF56825CF346B00756E53 /* Authentication */,
+				75DAF56725CF346800756E53 /* Notifications */,
+				75DAF56625CF346500756E53 /* Search */,
+				75DAF56525CF346100756E53 /* Comments */,
+				75DAF56425CF345E00756E53 /* Feed */,
+				75DAF56325CF344F00756E53 /* Profile */,
+				75DAF56225CF342F00756E53 /* UploadPost */,
+				75DAF55E25CF33EC00756E53 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75DAF55C25CF332300756E53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75DAF55E25CF33EC00756E53 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75DAF55F25CF341200756E53 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75DAF56225CF342F00756E53 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		75DAF56325CF344F00756E53 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		75DAF56425CF345E00756E53 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		75DAF56525CF346100756E53 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		75DAF56625CF346500756E53 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		75DAF56725CF346800756E53 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		75DAF56825CF346B00756E53 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		75DAF56925CF347B00756E53 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		75DAF56A25CF356100756E53 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		75DAF56B25CF356500756E53 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		75DAF56C25CF356900756E53 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		75DAF56D25CF356C00756E53 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DAF54B25CF325600756E53 /* ContentView.swift in Sources */,
+				75DAF56025CF341200756E53 /* ContentView.swift in Sources */,
 				75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
