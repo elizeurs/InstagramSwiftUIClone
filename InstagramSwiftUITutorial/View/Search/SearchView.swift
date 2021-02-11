@@ -20,6 +20,7 @@ struct SearchView: View {
         .padding()
       
       // grid view/user list view
+      PostGridView()
       
       
     }
