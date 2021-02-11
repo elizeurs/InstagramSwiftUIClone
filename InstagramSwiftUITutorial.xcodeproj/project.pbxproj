@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751C229925D58B3F004CD1E9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C229825D58B3F004CD1E9 /* SearchBar.swift */; };
 		75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */; };
 		75DAF54D25CF325700756E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54C25CF325700756E53 /* Assets.xcassets */; };
 		75DAF55025CF325700756E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54F25CF325700756E53 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		751C229825D58B3F004CD1E9 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		75DAF54525CF325600756E53 /* InstagramSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		75DAF54C25CF325700756E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				75FE6D1725D447F600903CA0 /* SearchView.swift */,
+				751C229825D58B3F004CD1E9 /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				75FE6D1225D4477200903CA0 /* MainTabView.swift in Sources */,
 				75FE6D2125D4488E00903CA0 /* UploadPostView.swift in Sources */,
 				75FE6D1E25D4485F00903CA0 /* ProfileView.swift in Sources */,
+				751C229925D58B3F004CD1E9 /* SearchBar.swift in Sources */,
 				75FE6D1B25D4483600903CA0 /* NotificationsView.swift in Sources */,
 				75FE6D2425D4599B00903CA0 /* FeedCell.swift in Sources */,
 			);
