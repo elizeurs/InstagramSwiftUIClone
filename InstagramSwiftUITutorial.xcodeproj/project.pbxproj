@@ -20,6 +20,8 @@
 		75BEBA7825D840890028699F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7725D840890028699F /* RegistrationView.swift */; };
 		75BEBA7B25D840AF0028699F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7A25D840AF0028699F /* LoginView.swift */; };
 		75BEBA7E25D840E30028699F /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7D25D840E30028699F /* ResetPasswordView.swift */; };
+		75BEBA8225D85F3A0028699F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA8125D85F3A0028699F /* CustomTextField.swift */; };
+		75BEBA8525D85F540028699F /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA8425D85F540028699F /* CustomSecureField.swift */; };
 		75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */; };
 		75DAF54D25CF325700756E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54C25CF325700756E53 /* Assets.xcassets */; };
 		75DAF55025CF325700756E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54F25CF325700756E53 /* Preview Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		75BEBA7725D840890028699F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		75BEBA7A25D840AF0028699F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		75BEBA7D25D840E30028699F /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		75BEBA8125D85F3A0028699F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		75BEBA8425D85F540028699F /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		75DAF54525CF325600756E53 /* InstagramSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		75DAF54C25CF325700756E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			children = (
 				751C22A425D5CB3E004CD1E9 /* Extensions.swift */,
 				754C5C4125D73EE400FE3757 /* ImagePicker.swift */,
+				75BEBA8125D85F3A0028699F /* CustomTextField.swift */,
+				75BEBA8425D85F540028699F /* CustomSecureField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -346,6 +352,7 @@
 				75FE6D1525D447D300903CA0 /* FeedView.swift in Sources */,
 				751C229C25D5A02E004CD1E9 /* PostGridView.swift in Sources */,
 				75DAF56025CF341200756E53 /* ContentView.swift in Sources */,
+				75BEBA8225D85F3A0028699F /* CustomTextField.swift in Sources */,
 				75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */,
 				75FE6D1225D4477200903CA0 /* MainTabView.swift in Sources */,
 				75FE6D2125D4488E00903CA0 /* UploadPostView.swift in Sources */,
@@ -357,6 +364,7 @@
 				754C5C3F25D6F11100FE3757 /* ProfileActionView.swift in Sources */,
 				751C229F25D5B124004CD1E9 /* UserCell.swift in Sources */,
 				751C229925D58B3F004CD1E9 /* SearchBar.swift in Sources */,
+				75BEBA8525D85F540028699F /* CustomSecureField.swift in Sources */,
 				75FE6D1B25D4483600903CA0 /* NotificationsView.swift in Sources */,
 				75BEBA7B25D840AF0028699F /* LoginView.swift in Sources */,
 				75FE6D2425D4599B00903CA0 /* FeedCell.swift in Sources */,
