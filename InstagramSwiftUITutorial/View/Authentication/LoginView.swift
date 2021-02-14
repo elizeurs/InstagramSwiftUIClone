@@ -71,16 +71,19 @@ struct LoginView: View {
           Spacer()
           
           // go to sign up
-          Button(action: {}, label: {
-            HStack {
-              Text("Don't have an account?")
-                .font(.system(size: 14))
-              
-              Text("Sign Up")
-                .font(.system(size: 14, weight: .semibold))
-            }.foregroundColor(.white)
-          }).padding(.bottom, 32)
+          NavigationLink(
+            destination: RegistrationView().navigationBarHidden(true),
+            label: {
+              HStack {
+                Text("Don't have an account?")
+                  .font(.system(size: 14))
+                
+                Text("Sign Up")
+                  .font(.system(size: 14, weight: .semibold))
+              }.foregroundColor(.white)
+            }).padding(.bottom, 16)
         }
+        .padding(.top, -44)
       }
     }
   }
