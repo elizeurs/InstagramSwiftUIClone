@@ -10,6 +10,7 @@ import Firebase
 
 class AuthViewModel: ObservableObject {
   @Published var userSession: FirebaseAuth.User?
+  @Published var currentUser: User?
   
   static let shared = AuthViewModel()
   
@@ -19,7 +20,7 @@ class AuthViewModel: ObservableObject {
   }
   
   func login(withEmail email: String, password: String) {
-//    print("Login")
+    //    print("Login")
     Auth.auth().signIn(withEmail: email, password: password) { result, error in
       if let error = error {
         print("DEBUG: Login failed \(error.localizedDescription)")
@@ -27,10 +28,11 @@ class AuthViewModel: ObservableObject {
       }
       
       guard let user = result?.user else { return }
-        self.userSession = user
-      }
+      self.userSession = user
+      self.fetchUser()
     }
-
+  }
+  
   
   func register(withEmail email: String, password: String, image: UIImage?, fullname: String, username: String) {
     guard let image = image else { return }
@@ -54,6 +56,7 @@ class AuthViewModel: ObservableObject {
         COLLECTION_USERS.document(user.uid).setData(data) { _ in
           print("Successfully uploaded user data...")
           self.userSession = user
+          self.fetchUser()
         }
       }
     }
@@ -72,7 +75,8 @@ class AuthViewModel: ObservableObject {
     guard let uid = userSession?.uid else { return }
     COLLECTION_USERS.document(uid).getDocument { snapshot, _ in
       guard let user = try? snapshot?.data(as: User.self) else { return }
-      print("DEBUG: User is \(user)")
+      //      print("DEBUG: User is \(user)")
+      self.currentUser = user
     }
   }
 }
