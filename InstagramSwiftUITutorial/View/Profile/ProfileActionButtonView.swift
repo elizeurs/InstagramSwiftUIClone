@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ProfileActionButtonView: View {
-  var isCurrentUser: Bool
+//  var isCurrentUser: Bool
+  @ObservedObject var viewModel: ProfileViewModel
   var isFollowed = false
   
   var body: some View {
-    if isCurrentUser {
+    if viewModel.user.isCurrentUser {
       // edit profile button
       Button(action: {}, label: {
         Text("Edit Profile")
@@ -26,7 +27,7 @@ struct ProfileActionButtonView: View {
     } else {
       HStack {
         // follow and message button
-        Button(action: {}, label: {
+        Button(action: { isFollowed ? viewModel.unfollow() : viewModel.follow() }, label: {
           Text(isFollowed ? "Following" : "Follow")
             .font(.system(size: 15, weight: .semibold))
             .frame(width: 172, height: 32)

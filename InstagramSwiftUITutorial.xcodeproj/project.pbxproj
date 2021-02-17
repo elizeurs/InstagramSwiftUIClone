@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7516FD6625DC29630052BAF6 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7516FD6525DC29630052BAF6 /* KingfisherSwiftUI */; };
+		7516FD6A25DC722D0052BAF6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516FD6925DC722D0052BAF6 /* ProfileViewModel.swift */; };
 		751C229925D58B3F004CD1E9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C229825D58B3F004CD1E9 /* SearchBar.swift */; };
 		751C229C25D5A02E004CD1E9 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C229B25D5A02E004CD1E9 /* PostGridView.swift */; };
 		751C229F25D5B124004CD1E9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C229E25D5B124004CD1E9 /* UserCell.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7516FD6925DC722D0052BAF6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		751C229825D58B3F004CD1E9 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		751C229B25D5A02E004CD1E9 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		751C229E25D5B124004CD1E9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 		75DAF56D25CF356C00756E53 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7516FD6925DC722D0052BAF6 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				75DBBC2B25DB1AFA0038BEE4 /* User.swift in Sources */,
 				75FE6D2425D4599B00903CA0 /* FeedCell.swift in Sources */,
 				75CA3FB525D9BBAC00D0A1C1 /* AuthViewModel.swift in Sources */,
+				7516FD6A25DC722D0052BAF6 /* ProfileViewModel.swift in Sources */,
 				751C22A225D5B137004CD1E9 /* UserListView.swift in Sources */,
 				751C22A825D5ED39004CD1E9 /* NotificationCell.swift in Sources */,
 				751C22A525D5CB3E004CD1E9 /* Extensions.swift in Sources */,
