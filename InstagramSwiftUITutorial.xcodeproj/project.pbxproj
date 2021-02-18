@@ -20,6 +20,7 @@
 		754C5C3F25D6F11100FE3757 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C5C3E25D6F11100FE3757 /* ProfileActionButtonView.swift */; };
 		754C5C4225D73EE400FE3757 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C5C4125D73EE400FE3757 /* ImagePicker.swift */; };
 		758FA03D25DD837B005184B0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FA03C25DD837B005184B0 /* UserService.swift */; };
+		758FA04025DDD8D6005184B0 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FA03F25DDD8D6005184B0 /* UploadPostViewModel.swift */; };
 		75BEBA7825D840890028699F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7725D840890028699F /* RegistrationView.swift */; };
 		75BEBA7B25D840AF0028699F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7A25D840AF0028699F /* LoginView.swift */; };
 		75BEBA7E25D840E30028699F /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEBA7D25D840E30028699F /* ResetPasswordView.swift */; };
@@ -63,6 +64,7 @@
 		754C5C3E25D6F11100FE3757 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		754C5C4125D73EE400FE3757 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		758FA03C25DD837B005184B0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		758FA03F25DDD8D6005184B0 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		75BEBA7725D840890028699F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		75BEBA7A25D840AF0028699F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		75BEBA7D25D840E30028699F /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				75DAF56B25CF356500756E53 /* Notifications */,
 				75DAF56A25CF356100756E53 /* Feed */,
 				75DBBC3C25DB2FBE0038BEE4 /* SearchViewModel.swift */,
+				758FA03F25DDD8D6005184B0 /* UploadPostViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				75FE6D2125D4488E00903CA0 /* UploadPostView.swift in Sources */,
 				75BEBA7E25D840E30028699F /* ResetPasswordView.swift in Sources */,
 				754C5C4225D73EE400FE3757 /* ImagePicker.swift in Sources */,
+				758FA04025DDD8D6005184B0 /* UploadPostViewModel.swift in Sources */,
 				754C5C3925D6D43C00FE3757 /* ProfileHeaderView.swift in Sources */,
 				75FE6D1E25D4485F00903CA0 /* ProfileView.swift in Sources */,
 				758FA03D25DD837B005184B0 /* UserService.swift in Sources */,
