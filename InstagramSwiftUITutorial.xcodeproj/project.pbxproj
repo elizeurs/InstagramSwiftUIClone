@@ -36,6 +36,7 @@
 		75D0F57025E302B70057B91D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0F56F25E302B70057B91D /* CommentsView.swift */; };
 		75D0F57325E302D00057B91D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0F57225E302D00057B91D /* CommentCell.swift */; };
 		75D0F57625E302FF0057B91D /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0F57525E302FF0057B91D /* CommentViewModel.swift */; };
+		75D0F57925E32CA80057B91D /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0F57825E32CA80057B91D /* CustomInputView.swift */; };
 		75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */; };
 		75DAF54D25CF325700756E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54C25CF325700756E53 /* Assets.xcassets */; };
 		75DAF55025CF325700756E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF54F25CF325700756E53 /* Preview Assets.xcassets */; };
@@ -89,6 +90,7 @@
 		75D0F56F25E302B70057B91D /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		75D0F57225E302D00057B91D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		75D0F57525E302FF0057B91D /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		75D0F57825E32CA80057B91D /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		75DAF54525CF325600756E53 /* InstagramSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DAF54825CF325600756E53 /* InstagramSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		75DAF54C25CF325700756E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				751C229B25D5A02E004CD1E9 /* PostGridView.swift */,
 				751C229E25D5B124004CD1E9 /* UserCell.swift */,
 				751C22A125D5B137004CD1E9 /* UserListView.swift */,
+				75D0F57825E32CA80057B91D /* CustomInputView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				75ACC0B325DF00BC00994205 /* TextArea.swift in Sources */,
 				75FE6D1E25D4485F00903CA0 /* ProfileView.swift in Sources */,
 				758FA03D25DD837B005184B0 /* UserService.swift in Sources */,
+				75D0F57925E32CA80057B91D /* CustomInputView.swift in Sources */,
 				754C5C3C25D6EE5300FE3757 /* UserStatView.swift in Sources */,
 				754C5C3F25D6F11100FE3757 /* ProfileActionButtonView.swift in Sources */,
 				751C229F25D5B124004CD1E9 /* UserCell.swift in Sources */,
