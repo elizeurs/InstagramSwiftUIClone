@@ -23,6 +23,7 @@
 		758FA03D25DD837B005184B0 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FA03C25DD837B005184B0 /* UserService.swift */; };
 		758FA04025DDD8D6005184B0 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FA03F25DDD8D6005184B0 /* UploadPostViewModel.swift */; };
 		75A9ECE425E4548F0081EF0C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9ECE325E4548F0081EF0C /* Notification.swift */; };
+		75A9ECE725E463D70081EF0C /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9ECE625E463D70081EF0C /* NotificationsViewModel.swift */; };
 		75ACC0B325DF00BC00994205 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACC0B225DF00BC00994205 /* TextArea.swift */; };
 		75ACC0B625DF202800994205 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACC0B525DF202800994205 /* Post.swift */; };
 		75ACC0B925DF221000994205 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACC0B825DF221000994205 /* FeedViewModel.swift */; };
@@ -78,6 +79,7 @@
 		758FA03C25DD837B005184B0 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		758FA03F25DDD8D6005184B0 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		75A9ECE325E4548F0081EF0C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		75A9ECE625E463D70081EF0C /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
 		75ACC0B225DF00BC00994205 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		75ACC0B525DF202800994205 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		75ACC0B825DF221000994205 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 		75DAF56B25CF356500756E53 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				75A9ECE625E463D70081EF0C /* NotificationsViewModel.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				75FE6D1525D447D300903CA0 /* FeedView.swift in Sources */,
 				751C229C25D5A02E004CD1E9 /* PostGridView.swift in Sources */,
 				75DAF56025CF341200756E53 /* ContentView.swift in Sources */,
+				75A9ECE725E463D70081EF0C /* NotificationsViewModel.swift in Sources */,
 				75BEBA8225D85F3A0028699F /* CustomTextField.swift in Sources */,
 				75DBBC2525DACD040038BEE4 /* ImageUploader.swift in Sources */,
 				75DAF54925CF325600756E53 /* InstagramSwiftUITutorialApp.swift in Sources */,
