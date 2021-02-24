@@ -26,7 +26,8 @@ struct PostGridView: View {
         ForEach(viewModel.posts) { post in
           NavigationLink(
             destination:
-              FeedView(),
+//              FeedView(),
+              FeedCell(viewModel: FeedCellViewModel(post: post)),
             label: {
 //              Image("batman")
               KFImage(URL(string: post.imageUrl))
