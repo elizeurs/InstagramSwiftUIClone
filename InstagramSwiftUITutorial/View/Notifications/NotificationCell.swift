@@ -24,17 +24,21 @@ struct NotificationCell: View {
     
     HStack {
 //      Image("batman")
-      KFImage(URL(string: viewModel.notification.profileImageUrl))
-        .resizable()
-        .scaledToFill()
-        .frame(width: 40, height: 40)
-        .clipShape(Circle())
-      
-//      Text("batman").font(.system(size: 14, weight: .semibold)) +
-//        Text(" liked one of your posts.")
-      Text(viewModel.notification.username).font(.system(size: 14, weight: .semibold)) +
-        Text(viewModel.notification.type.notificationMessage)
-        .font(.system(size: 15))
+      if let user = viewModel.notification.user {
+        NavigationLink(destination: ProfileView(user: user)) {
+          KFImage(URL(string: viewModel.notification.profileImageUrl))
+            .resizable()
+            .scaledToFill()
+            .frame(width: 40, height: 40)
+            .clipShape(Circle())
+          
+    //      Text("batman").font(.system(size: 14, weight: .semibold)) +
+    //        Text(" liked one of your posts.")
+          Text(viewModel.notification.username).font(.system(size: 14, weight: .semibold)) +
+            Text(viewModel.notification.type.notificationMessage)
+            .font(.system(size: 15))
+        }
+      }
       
       Spacer()
       
