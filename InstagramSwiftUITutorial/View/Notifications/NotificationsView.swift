@@ -10,22 +10,22 @@ import SwiftUI
 struct NotificationsView: View {
   @ObservedObject var viewModel = NotificationsViewModel()
   
-    var body: some View {
-//        Text("Notifications")
-      ScrollView {
-        LazyVStack(spacing: 20) {
-//          ForEach(0 ..< 20) { _ in
-          ForEach(viewModel.notifications) { notification in
-            NotificationCell(notification: notification)
-              .padding(.top)
-          }
+  var body: some View {
+    //        Text("Notifications")
+    ScrollView {
+      LazyVStack(spacing: 20) {
+        //          ForEach(0 ..< 20) { _ in
+        ForEach(viewModel.notifications) { notification in
+          NotificationCell(viewModel: NotificationCellViewModel(notification: notification))
+            .padding(.top)
         }
       }
     }
+  }
 }
 
 struct NotificationsView_Previews: PreviewProvider {
-    static var previews: some View {
-        NotificationsView()
-    }
+  static var previews: some View {
+    NotificationsView()
+  }
 }
