@@ -15,6 +15,7 @@
 		751C22A225D5B137004CD1E9 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C22A125D5B137004CD1E9 /* UserListView.swift */; };
 		751C22A525D5CB3E004CD1E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C22A425D5CB3E004CD1E9 /* Extensions.swift */; };
 		751C22A825D5ED39004CD1E9 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C22A725D5ED39004CD1E9 /* NotificationCell.swift */; };
+		75496D8525E9A6F100086CC7 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75496D8425E9A6F100086CC7 /* EditProfileView.swift */; };
 		754C5C3925D6D43C00FE3757 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C5C3825D6D43C00FE3757 /* ProfileHeaderView.swift */; };
 		754C5C3C25D6EE5300FE3757 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C5C3B25D6EE5300FE3757 /* UserStatView.swift */; };
 		754C5C3F25D6F11100FE3757 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C5C3E25D6F11100FE3757 /* ProfileActionButtonView.swift */; };
@@ -73,6 +74,7 @@
 		751C22A125D5B137004CD1E9 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		751C22A425D5CB3E004CD1E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		751C22A725D5ED39004CD1E9 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		75496D8425E9A6F100086CC7 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		754C5C3825D6D43C00FE3757 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		754C5C3B25D6EE5300FE3757 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		754C5C3E25D6F11100FE3757 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				754C5C3825D6D43C00FE3757 /* ProfileHeaderView.swift */,
 				754C5C3B25D6EE5300FE3757 /* UserStatView.swift */,
 				754C5C3E25D6F11100FE3757 /* ProfileActionButtonView.swift */,
+				75496D8425E9A6F100086CC7 /* EditProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				758FA04025DDD8D6005184B0 /* UploadPostViewModel.swift in Sources */,
 				754C5C3925D6D43C00FE3757 /* ProfileHeaderView.swift in Sources */,
 				75D0F57625E302FF0057B91D /* CommentViewModel.swift in Sources */,
+				75496D8525E9A6F100086CC7 /* EditProfileView.swift in Sources */,
 				75D0F57325E302D00057B91D /* CommentCell.swift in Sources */,
 				75ACC0B325DF00BC00994205 /* TextArea.swift in Sources */,
 				75FE6D1E25D4485F00903CA0 /* ProfileView.swift in Sources */,
