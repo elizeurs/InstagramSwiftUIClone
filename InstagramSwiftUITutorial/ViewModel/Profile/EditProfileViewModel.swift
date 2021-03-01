@@ -8,7 +8,7 @@
 import SwiftUI
 
 class EditProfileViewModel: ObservableObject {
-  private var user: User
+  var user: User
   @Published var uploadComplete = false
   
   init(user: User) {
@@ -18,7 +18,9 @@ class EditProfileViewModel: ObservableObject {
   func saveUserBio(_ bio: String) {
 //    print("Save data..")
     guard let uid = user.id else { return }
+    
     COLLECTION_USERS.document(uid).updateData(["bio": bio]) { _ in
+      self.user.bio = bio
       self.uploadComplete = true
     }
   }

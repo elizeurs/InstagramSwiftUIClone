@@ -8,38 +8,44 @@
 import SwiftUI
 
 struct EditProfileView: View {
-  @State private var bioText = ""
+  @State private var bioText: String
+  @Binding var user: User
   @ObservedObject private var viewModel: EditProfileViewModel
   @Environment(\.presentationMode) var mode
   
-  init(viewModel: EditProfileViewModel) {
-    self.viewModel = viewModel
+  init(user: Binding<User>) {
+    self._user = user
+    self.viewModel = EditProfileViewModel(user: self._user.wrappedValue)
+    self._bioText = State(initialValue: _user.wrappedValue.bio ?? "")
   }
   
-    var body: some View {
-      VStack {
-        HStack {
-          Button(action: { mode.wrappedValue.dismiss() }, label: {
-            Text("Cancel")
-          })
-          
-          Spacer()
-          
-          Button(action: { viewModel.saveUserBio(bioText) }, label: {
-            Text("Done")
-          })
-        }.padding()
-        
-        TextArea(text: $bioText, placeholder: "Add your bio..")
-          .frame(width: 370, height: 200)
-          .padding()
+  var body: some View {
+    VStack {
+      HStack {
+        Button(action: { mode.wrappedValue.dismiss() }, label: {
+          Text("Cancel")
+        })
         
         Spacer()
-      }
-//      .onReceive(viewModel.$uploadComplete, perform: { _ in
-//        self.mode.wrappedValue.dismiss()
-//      })
+        
+        Button(action: { viewModel.saveUserBio(bioText) }, label: {
+          Text("Done")
+        })
+      }.padding()
+      
+      TextArea(text: $bioText, placeholder: "Add your bio..")
+        .frame(width: 370, height: 200)
+        .padding()
+      
+      Spacer()
     }
+    .onReceive(viewModel.$uploadComplete, perform: { completed in
+      if completed {
+        self.mode.wrappedValue.dismiss()
+        self.user.bio = viewModel.user.bio
+      }
+    })
+  }
 }
 
 //struct EditProfileView_Previews: PreviewProvider {
